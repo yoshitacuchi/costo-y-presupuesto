@@ -117,6 +117,7 @@ a.btn-rojo{
     color: #fff;
     background-image: linear-gradient(to bottom, #7c72a4,#5b5384); 
     border-bottom: 20px solid #7c72a4;
+    width: 50%;
 }
 .info-2-txt{
     font-size: 18pt;
@@ -255,7 +256,7 @@ a.btn-rojo{
     font-size: 10pt;
 }
 .txt-dato{
-    font-size: 9pt;
+    font-size: 8pt;
 }
 .content-contacto{
     align-items: center;
@@ -298,7 +299,16 @@ a.btn-rojo{
 .col-elegir{
     width: 25%;
 }
-
+.text-white{
+    color: #fff;
+    font-size: 8pt;
+    font-family: 'Work Sans Bold';
+}
+.divider-white{
+    width: 2px;
+    height: 76px;
+    background-color: #fff;
+}
 @media all and (max-width: 992px){
     .content-top-banner .top-banner,
     .content-main .main,
@@ -322,6 +332,9 @@ a.btn-rojo{
         height: 680px;
         background-position-x: -50px;
         background-size: cover;
+    }
+    .info-2-verde{
+        width: 100%;
     }
     .info{
         background-size: cover;
